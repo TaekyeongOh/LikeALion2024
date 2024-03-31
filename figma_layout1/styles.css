@@ -1,0 +1,73 @@
+.white_box {
+	background-color: #FFFFFF; /* 배경색을 흰색으로 설정 */
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 1300px; /* x 위치 설정 */
+	top: 400px; /* y 위치 설정 */
+  }
+
+.e1_23 { 
+	overflow:hidden;
+}
+.e1_23 { 
+	width:1980px;
+	height:1080px;
+	position:absolute;
+}
+.e1_21 { 
+	background-color:rgba(188.0000039935112, 224.000001847744, 253.0000001192093, 1);
+	width:416px;
+	height:880px;
+	position:absolute;
+	left:1199px;
+	top:100px;
+}
+.e1_2 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1980px;
+	height:1080px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e1_13 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:1250px;
+	height:1080px;
+	position:absolute;
+	left:365px;
+	top:0px;
+}
+.e1_19 { 
+	background-color:rgba(163.00000548362732, 210.00000268220901, 255, 1);
+	width:1250px;
+	height:100px;
+	position:absolute;
+	left:365px;
+	top:980px;
+}
+.e1_18 { 
+	background-color:rgba(255, 200.00000327825546, 221.00000202655792, 1);
+	width:416px;
+	height:880px;
+	position:absolute;
+	left:365px;
+	top:100px;
+}
+.e1_20 { 
+	background-color:rgba(255, 175.00000476837158, 205.00000298023224, 1);
+	width:416px;
+	height:880px;
+	position:absolute;
+	left:782px;
+	top:100px;
+}
+.e130_2 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:1290px;
+	top:426px;
+}
