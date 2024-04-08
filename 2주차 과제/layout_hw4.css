@@ -1,0 +1,126 @@
+.body{
+    margin: 0 ;
+    padding: 0;
+}
+#wrap{
+    margin: 0 auto;
+    width: 1280px;
+    height: 1080px;
+    background-color: aliceblue;
+}
+#header{
+    height: 100px;
+    width: 1280px;
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+    background-color: #EAE9EE;
+}
+.nav{
+    height: 100px;
+    width: 1080px;
+    background-color: #C2C3D6;
+}
+#main{
+    width: 1280px;
+    height: 880px;
+    display: block;
+}
+.content01{
+    display: flex;
+}
+.content01_01{
+    width: 250px;
+    height: 440px;
+    background-color: #E1E1F5;
+}
+.content01_23{
+    width: 1030px;
+    height: 440px;
+    display: block;
+}
+.content01_02{
+    display: flex;
+}
+.content01_02_1{
+    width: 730px;
+    height: 220px;
+    background-color: #C0C0FB;
+}
+.content01_02_2{
+    width: 300px;
+    height: 220px;
+    background-color: #7878D4;
+}
+.content01_03{
+    display: flex;
+}
+.content01_03_1{
+    width: 280px;
+    height: 220px;
+    background-color: #9999EF;
+}
+.content01_03_2{
+    width: 750px;
+    height: 220px;
+    background-color: #CACBE4;
+}
+.content02{
+    display: flex;
+}
+.content02_1{
+    width: 177px;
+    height: 440px;
+    background-color: #7878D4;
+}
+.content02_2{
+    width: 176px;
+    height: 440px;
+    background-color: #353AC2;
+}
+.content02_3{
+    width: 177px;
+    height: 440px;
+    background-color: #0D1163;
+}
+.content02_45{
+    display: block;
+}
+.content02_4{
+    width: 750px;
+    height: 242px;
+    background-color: #666CEE;
+}
+.content02_5{
+    display: flex;
+}
+.content02_5_1{
+    width: 372px;
+    height: 198px;
+    background-color: #7D7FA7;
+}
+.content02_5_2{
+    width: 378px;
+    height: 198px;
+    background-color: #4C4F8C;
+}
+#footer{
+    display: flex;
+}
+.part1{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+#part2{
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
+#part3{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
