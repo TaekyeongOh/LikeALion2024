@@ -1,0 +1,68 @@
+div{
+    display: flex;
+    position: absolute;
+    background-color: #000000;
+}
+#b1{
+    width: 100px;
+    height: 100px;
+    left: 365px;
+    top: 40px;
+    
+}
+#b2{
+    width: 100px;
+    height: 100px;
+    left: 665px;
+    top: 40px;
+    
+}
+#b3{
+    width: 200px;
+    height: 200px;
+    left: 1365px;
+    top: 40px;
+    
+}
+#b4{
+    width: 200px;
+    height: 200px;
+    left: 465px;
+    top: 140px;
+    
+}
+#b5{
+    width: 100px;
+    height: 100px;
+    left: 965px;
+    top: 240px;
+    
+}
+#b6{
+    width: 300px;
+    height: 300px;
+    left: 665px;
+    top: 340px;
+    
+}
+#b7{
+    width: 100px;
+    height: 100px;
+    left: 465px;
+    top: 740px;
+    
+}
+#b8{
+    width: 200px;
+    height: 200px;
+    left: 965px;
+    top: 640px;
+    
+}
+#b9{
+    width: 200px;
+    height: 200px;
+    left: 1165px;
+    top: 840px;
+    
+}

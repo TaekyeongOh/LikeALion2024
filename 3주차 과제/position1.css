@@ -1,0 +1,51 @@
+div{
+    display: flex;
+    position: absolute;
+}
+main{
+    padding: 0 auto;
+    margin: 0;
+}
+
+#s1{
+    width: 100px;
+    height: 100px;
+    left: 365px;
+    top: 40px;
+    background-color: #000000;
+}
+#s2{
+    width: 200px;
+    height: 200px;
+    left: 465px;
+    top: 140px;
+    background-color: #000000;
+}
+#s3{
+    width: 300px;
+    height: 300px;
+    left: 665px;
+    top: 340px;
+    background-color: #000000;
+}
+#s4{
+    width: 200px;
+    height: 200px;
+    left: 965px;
+    top: 640px;
+    background-color: #000000;
+}
+#s5{
+    width: 200px;
+    height: 200px;
+    left: 1165px;
+    top: 840px;
+    background-color: #000000;
+}
+#s6{
+    width: 200px;
+    height: 200px;
+    left: 1365px;
+    top: 40px;
+    background-color: #000000;
+}
