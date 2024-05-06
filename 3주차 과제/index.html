@@ -5,34 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="js/script.js"></script>
+    <script src="js/jquery-1.12.3.js"></script>
 </head>
 <body>
     <div class="wrap">
-        <header class="header">
-            <span class="logo">HB</span>
-            <span class="nav">
-                <a id="top">Top</a>
-                <a id="outer">Outer</a>
-                <a id="pants">Pants</a>
-                <a id="accessory">Accessory</a>
-            </span>
-        </header>
+        <div class="inner">
+            <header>
+                <h1><a>HB</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Top</a>
+                            <ul class="sub">
+                                <li><a href="#">블라우스</a></li>
+                                <li><a href="#">티</a></li>
+                                <li><a href="#">셔츠</a></li>
+                                <li><a href="#">니트</a></li>        
+                            </ul>
+                        </li>
+                        <li><a href="#">Outer</a>
+                            <ul class="sub">
+                                <li><a href="#">자켓</a></li>
+                                <li><a href="#">코트</a></li>
+                                <li><a href="#">가디건</a></li>
+                                <li><a href="#">머플러</a></li>        
+                            </ul></li>
+                        <li><a href="#">Pants</a>
+                            <ul class="sub">
+                                <li><a href="#">청바지</a></li>
+                                <li><a href="#">짧은 바지</a></li>
+                                <li><a href="#">긴 바지</a></li>
+                                <li><a href="#">레깅스</a></li>        
+                            </ul></li>
+                        <li><a href="#">Accessory</a>
+                            <ul class="sub">
+                                <li><a href="#">귀걸이</a></li>
+                                <li><a href="#">목걸이</a></li>
+                                <li><a href="#">반지</a></li>
+                                <li><a href="#">팔찌</a></li>        
+                            </ul></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="contents">
+                <div class="slide">
+                    <img src="./img/Rectangle 92-2.png">
+                </div>
+                <div class="con">
+                    <article class="con1">
+                        <ul class="tabmenu">
+                            <li class="on"><a href="#">공지사항</a></li>
+                            <li><a href="#">갤러리</a></li>
+                        </ul>
+                        <div class="notice tabcon">
+                            <table>
+                                <tr>
+                                    <th><a href="#">(주)성신기업 한복 제작 사업 시작</a></th>
+                                    <td>2024.04.03</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#">성신여자대학교 (주)성신기업 MOU 체결</a></th>
+                                    <td>2024.04.02</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#">반품/환불 규정 공지</a></th>
+                                    <td>2024.04.01</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#">사이트를 처음 이용하시는 분들을 위해</a></th>
+                                    <td>2024.03.12</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#">지속적인 건의에 대한 답변</a></th>
+                                    <td>2024.03.15</td>
+                                </tr>
+                            </table>
 
-        <main class="main">
-            <img class="box1" src="./img/Rectangle 92-2.png" ></img>
-            <div class="box2">
-                <a id="box2-1"></a>
-                <img id="box2-2" src="./img/Rectangle 92-1.png" ></img>
-                <img id="box2-3" src="./img/Rectangle 92.png" ></img>
+                        </div>
+                        <div class="gall tabcon">
+                            <ul>
+                                <li><a href="#"></a></li>
+                            </ul>
+
+
+                        </div>
+                    </article>
+                    <article class="con2">
+                        <img src="./img/Rectangle 92-1.png">
+                    </article>
+                    <article class="con3">
+                        <img src="./img/Rectangle 92.png">
+                    </article>  
+                </div>
             </div>
-
-        </main>
-        
-        <footer class="footer">
-            <a class="foot1">HB</a>
-            <a class="foot2">@2024 LOTTE SHOPPING CO.LTD.ALL RIGHTS RESERVED</a>
-        </footer>
+            <footer class="footer">
+                <div class="HB"><a>HB</a></div>
+                <a class="last">Ⓒ 2024 LOTTE SHOPPING CO. LTD. ALL RIGHTS RESERVED</a>
+            </footer>
+        </div>
     </div>
-    
 </body>
 </html>
