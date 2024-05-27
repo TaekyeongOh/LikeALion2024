@@ -5,7 +5,7 @@ function ToDoList () {
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event){
-        setNewTask{event.target.value};
+        setNewTask(event.target.value);
     }
 
     function addTask(){
@@ -80,7 +80,7 @@ function ToDoList () {
             )}
         </ol>
 
-    </div>>
+    </div>
     );
 }
 
