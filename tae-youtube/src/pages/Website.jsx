@@ -3,7 +3,10 @@ import Main from '../components/section/Main'
 
 const Website = () => {
     return (
-        <Main>
+      <Main
+      title='블랙핑크'
+      description='blackpink'
+      >
             Website
         </Main>
     )

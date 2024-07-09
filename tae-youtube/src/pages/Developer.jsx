@@ -3,7 +3,10 @@ import Main from '../components/section/Main'
 
 const Developer = () => {
   return (
-    <Main>
+    <Main
+    title='뉴진스'
+    description="new jeans"
+    >
       Developer
     </Main>
   )
