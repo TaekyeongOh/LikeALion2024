@@ -1,0 +1,40 @@
+.HeaderLogo{
+    width: 100px;
+    height: 34px;
+    position: relative;
+    top: 45px;
+    left: 50px;
+}
+
+.header__menu{
+    display: flex;
+    top: 0;
+    left: 640px;
+    position: absolute;
+
+    .menu{
+        position: relative;
+        
+        a{
+            font-size: 18px;
+        }
+        
+        .dropdown-image {
+            display: none;
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            width: 200px;
+            height: auto;
+        }
+
+        &:hover .dropdown-image {
+            display: block;
+        }
+    }
+}
+
+li{
+    float: left;
+    margin: 50px 42px;
+}
