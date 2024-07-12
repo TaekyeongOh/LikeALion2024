@@ -9,15 +9,15 @@ import Tennis from './pages/Tennis'
 import Brand from './pages/Brand'
 import Not from './pages/Not'
 
-// import Header from './components/section/Header'; 
-// import Main from './components/section/Main';   
-// import Footer from './components/section/Footer'; 
+import Header from './components/section/Header'; 
+import Main from './components/section/Main';   
+import Footer from './components/section/Footer'; 
 
 const App = () => {
     return (
         <BrowserRouter>
-            {/* <Header />
-            <Main> */}
+            <Header />
+            <Main>
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/women' element={<Women />} />
@@ -27,8 +27,8 @@ const App = () => {
                     <Route path='/brand' element={<Brand />} />
                     <Route path='*' element={<Not />} />
                 </Routes>
-            {/* </Main>
-            <Footer /> */}
+            </Main>
+            <Footer />
         </BrowserRouter>
     )
 }
