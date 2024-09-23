@@ -1,0 +1,588 @@
+// Nav
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #cecece;
+    z-index: 100;
+    background-color: #fff;
+    width: 1920px;
+
+    .wrap {
+        display: flex;
+        padding: 0 4%;
+        height: 85px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            background-image: url(https://textbook.jihak.co.kr/img/logo.svg);
+            width: 139px;
+            height: 45px;
+        }
+
+        .ul {
+            display: flex;
+
+            .n_li {
+                margin-right: 60px;
+                font-size: 20px;
+                font-weight: 600;
+                color: #111;
+                line-height: 85px;
+
+                .event {
+                    display: inline-block;
+                    font-size: 10px;
+                    font-weight: 600;
+                    line-height: 19px;
+                    padding: 0 6px;
+                    margin-left: 5px;
+                    background-color: #FFCF00;
+                    border-radius: 10px;
+                    border-bottom-left-radius: 0;
+                    transition: all 0.2s ease-out;
+                }
+
+                .event:hover {
+                    background-color: #000000;
+                    color: #FFCF00;
+                }
+            }
+
+            .n_li:hover {
+                color: #FFCF00;
+                transition: all 0.2s ease-out;
+
+                .event {
+                    background-color: #000000;
+                    color: #FFCF00;
+                }
+            }
+        }
+    }
+}
+
+body {
+    padding-top: 85px;
+}
+
+
+.wrap {
+    display: flex;
+    padding: 0 4%;
+    height: 85px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        background-image: url(https://textbook.jihak.co.kr/img/logo.svg);
+        width: 139px;
+        height: 45px;
+    }
+
+    .ul {
+        display: flex;
+
+        .n_li {
+            margin-right: 60px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #111;
+            line-height: 85px;
+
+            .event {
+                display: inline-block;
+                font-size: 10px;
+                font-weight: 600;
+                line-height: 19px;
+                padding: 0 6px;
+                margin-left: 5px;
+                background-color: #FFCF00;
+                border-radius: 10px;
+                border-bottom-left-radius: 0;
+                transition: all 0.2s ease-out;
+            }
+
+            .event:hover {
+                background-color: #000000;
+                color: #FFCF00;
+            }
+        }
+
+        .n_li:hover {
+            color: #FFCF00;
+            transition: all 0.2s ease-out;
+
+            .event {
+                background-color: #000000;
+                color: #FFCF00;
+            }
+        }
+    }
+}
+
+body {
+    padding-top: 85px;
+}
+
+// Main
+
+// sec01
+.sec01 {
+    width: 1920px;
+    height: 930px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 4%;
+    position: relative;
+
+    .txt-box {
+        top: 0;
+        left: 0;
+
+        .ft_gia {
+            font-size: 80px;
+            line-height: 95px;
+            font-family: 'Giants-Regular';
+            font-weight: 400;
+        }
+
+        p {
+            margin-top: 40px;
+        }
+
+        div {
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+    }
+
+    .sec01-right {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 1280px;
+        height: 800px;
+    }
+}
+
+//sec02
+.sec02 {
+    width: 1717px;
+    height: 930px;
+    display: block;
+    margin-bottom: 360px;
+  
+    .yelbox {
+      span {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 39px;
+        padding: 0 22px;
+        background-color: #ffcf03;
+        border-radius: 20px;
+        border-bottom-left-radius: 0;
+        margin-left: 77px;
+      }
+    }
+  
+    .ft_gia {
+      margin-left: 77px;
+      font-size: 80px;
+      line-height: 95px;
+      margin-top: 20px;
+      font-family: 'Giants-Regular';
+      font-weight: 400;
+    }
+  
+    .ft_gia_p {
+      font-size: 25px;
+      line-height: 42px;
+      margin-top: 40px;
+      margin-left: 77px;
+    }
+  
+    .pr-mtab {
+      position: absolute;
+      top: 1285px;
+      right: 76.8px;
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 22px 35px;
+  
+      .mtab {
+        border-radius: 15px;
+        background-color: #fff7e2;
+        border: 1px solid #ffe08d;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 10px;
+        width: 121.6px;
+        height: 117px;
+        padding: 35px 22px;
+  
+        span {
+          display: block;
+          background: url(https://textbook.jihak.co.kr/img/mtab-suhak.png)
+            no-repeat center center;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+      .mtab:hover {
+        background-color: #ffcf00;
+        border-color: #ffcf00;
+      }
+    }
+  
+    .books {
+      display: block;
+      width: 1920px;
+      height: 620px;
+      margin-top: 90px;
+  
+      .books1 {
+        display: flex;
+      }
+  
+      .books2 {
+        display: flex;
+      }
+  
+      .book {
+        width: 240px;
+        height: 310px;
+        background-color: #ffcf00;
+      }
+  
+      .b2 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-suhak31-pr.png);
+      }
+  
+      .b3 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-suhak32-pr.png);
+      }
+  
+      .b5 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-sahui31-pr.png);
+      }
+  
+      .b6 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-sahui32-pr.png);
+      }
+  
+      .b9 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-gwahak31-pr.png);
+      }
+  
+      .b10 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-gwahak32-pr.png);
+      }
+  
+      .b12 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-eumak3-pr.png);
+      }
+  
+      .b13 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-misul3-pr.png);
+      }
+  
+      .b15 {
+        background-image: url(https://textbook.jihak.co.kr/img/mthunb-cheyook3-pr.png);
+      }
+    }
+  }
+  
+//sec03{
+.sec03 {
+    width: 1717px;
+    height: 930px;
+    display: block;
+    margin-bottom: 360px;
+    margin-top: 180px;
+    .yelbox {
+        span {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 39px;
+            padding: 0 22px;
+            background-color: #FFCF03;
+            border-radius: 20px;
+            border-bottom-left-radius: 0;
+            margin-left: 77px;
+        }
+    }
+
+    .ft_gia {
+        margin-left: 77px;
+        font-size: 80px;
+        line-height: 95px;
+        margin-top: 20px;
+        font-family: 'Giants-Regular';
+        font-weight: 400;
+    }
+
+    .ft_gia_p {
+        font-size: 25px;
+        line-height: 42px;
+        margin-top: 40px;
+        margin-left: 77px;
+    }
+
+    .pr-mtab {
+        position: absolute;
+        top: 1285px;
+        right: 76.8px;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 22px 35px;
+
+        .mtab {
+            border-radius: 15px;
+            background-color: #FFF7E2;
+            border: 1px solid #FFE08D;
+            cursor: pointer;
+            text-align: center;
+            margin-right: 10px;
+            width: 121.6px;
+            height: 117px;
+            padding: 35px 22px;
+
+            li {
+                line-height: 117px;
+
+                span {
+                    background: url(https://textbook.jihak.co.kr/img/mtab-suhak.png) no-repeat center center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-align: center
+                }
+            }
+        }
+    }
+
+    .books {
+        display: block;
+        width: 1920px;
+        height: 620px;
+        margin-top: 90px;
+
+        .books1 {
+            display: flex;
+        }
+
+        .books2 {
+            display: flex;
+        }
+
+        .book {
+            width: 240px;
+            height: 310px;
+            background-color: #FFCF00;
+        }
+
+        .b2 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-suhak31-pr.png);
+        }
+
+        .b3 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-suhak32-pr.png);
+        }
+
+        .b5 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-sahui31-pr.png);
+        }
+
+        .b6 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-sahui32-pr.png);
+        }
+
+        .b9 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-gwahak31-pr.png);
+        }
+
+        .b10 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-gwahak32-pr.png);
+        }
+
+        .b12 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-eumak3-pr.png);
+        }
+
+        .b13 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-misul3-pr.png);
+        }
+
+        .b15 {
+            background-image: url(https://textbook.jihak.co.kr/img/mthunb-cheyook3-pr.png);
+        }
+    }
+}
+
+// seo04
+.sec04 {
+    display: flex;
+    margin-top: 180px;
+
+    .sec04-1 {
+        background-color: #FFCF00;
+        width: 50%;
+        height: 220.8px;
+        position: relative;
+
+        .char1 {
+            position: absolute;
+            background-image: url(https://textbook.jihak.co.kr/img/cha-foot1.svg);
+            top: -43px;
+            left: 80px;
+            width: 183px;
+            height: 223px;
+        }
+
+        .sec04-1-2 {
+            padding: 45px 0 45px 300px;
+            position: relative;
+
+            h4 {
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.5px;
+                font-family: 'pretendard', dotum, sans-serif;
+            }
+
+            p {
+                display: inline-block;
+                margin: 20px 0 0 0;
+                padding: 0;
+                font-size: 18px;
+                font-family: 'pretendard', dotum, sans-serif;
+            }
+
+            span {
+                display: inline-block;
+                width: 15px;
+                height: 12px;
+                background: url(https://textbook.jihak.co.kr/img/ft-arrow.svg) no-repeat;
+                background-size: contain;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .sec04-2 {
+        background-color: #EEEEEE;
+        width: 50%;
+        height: 220.8px;
+        position: relative;
+
+        .char2 {
+            position: absolute;
+            background-image: url(https://textbook.jihak.co.kr/img/cha-foot2.svg);
+            background-repeat: no-repeat;
+            top: -43px;
+            left: 80px;
+            width: 183px;
+            height: 223px;
+        }
+
+        .sec04-2-2 {
+            padding: 45px 0 45px 300px;
+            position: relative;
+
+            h4 {
+                font-size: 35px;
+                line-height: 45px;
+                letter-spacing: -0.5px;
+                font-family: 'pretendard', dotum, sans-serif;
+            }
+
+            p {
+                display: inline-block;
+                margin: 20px 0 0 0;
+                padding: 0;
+                font-size: 18px;
+                font-family: 'pretendard', dotum, sans-serif;
+            }
+
+            span {
+                display: inline-block;
+                width: 15px;
+                height: 12px;
+                background: url(https://textbook.jihak.co.kr/img/ft-arrow.svg) no-repeat;
+                background-size: contain;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+// Footer
+.footer {
+    background-color: #333;
+    height: 196px;
+    width: 1920px;
+
+    .f_wrap {
+        padding: 43px 0 43px 0;
+        display: flex;
+        margin: 0 140px 0 140px;
+
+        .f_logo {
+            width: 139px;
+            height: 45px;
+            margin: 0 40px 0 0;
+            background-image: url(https://textbook.jihak.co.kr/img/logo-wh.svg);
+        }
+    }
+
+    .f_ps {
+        height: 110px;
+        padding-left: 40px;
+        color: #aaa;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+// Aside
+.aside {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 11;
+    text-align: right;
+
+    .copy {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #f1f1f1;
+        background-color: #FFCF00;
+        border-radius: 50px;
+        background-image: url(https://textbook.jihak.co.kr/img/as-link.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .top {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+        background-image: url(https://textbook.jihak.co.kr/img/as-top.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+}
