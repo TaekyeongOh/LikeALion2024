@@ -1,0 +1,122 @@
+//header
+.header {
+    .headerBanner {
+        background-color: #6A6FB3;
+        width: 375px;
+        height: 50px;
+        position: absolute;
+        top: 47px;
+        left: 0;
+
+        img {
+            width: 120px;
+            height: 30.24px;
+            left: 127.5px;
+            top: 10px;
+            position: absolute;
+        }
+    }
+}
+
+//nav
+.nav {
+    display: flex;
+    width: 375px;
+    height: 60px;
+    position: fixed;
+    top: 718px;
+    left: 51px;
+
+    .Bnav {
+        width: 25px;
+        height: 25px;
+        margin-right: 58px;
+    }
+}
+
+//main
+.Main_wrap {
+
+    .introduceVideo {
+        width: 336px;
+        height: 160px;
+        top: 541px;
+        left: 20px;
+        position: absolute;
+
+        img {
+            border-radius: 8px;
+        }
+    }
+}
+
+//like
+.Like_wrap {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+
+    p {
+        font-size: 18px;
+        top: 406px;
+        left: 106px;
+        position: absolute;
+        color: #6A6FB3;
+    }
+}
+
+//slider
+.swiper {
+    top: 97px;
+    width: 375px;
+    .swiper-pagination-bullet {
+        background-color: #D4C4DB;
+    }
+}
+
+//Notification
+.notification {
+    z-index: 110;
+
+    .no_ul{
+        position: absolute;
+        top: 0;
+    }
+    .h3 {
+        position: absolute;
+        width: 335px;
+        height: 30px;
+        line-height: 30px;
+        top: 275px;
+        left: 21px;
+        font-size: 14px;
+        border-color: #3F426F;
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+    }
+
+    li {
+        border-bottom: #D7D7D7 solid;
+        width: 335px;
+        top: 305px;
+        left: 21px;
+        margin: 3px;
+        position: relative;
+        .div_a {
+            a{
+            color: #595959;
+            font-size: 12px;
+            border-bottom: #D7D7D7 solid 1px;
+            } 
+        }
+        img {
+            top: 6px;
+            right: 12px;
+            position: absolute;
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+}
