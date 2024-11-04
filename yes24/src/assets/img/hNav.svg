@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="ico_gnbMnu" transform="translate(-54 -88)">
+    <rect id="area" width="44" height="44" transform="translate(54 88)" fill="rgba(255,102,102,0.2)" opacity="0"/>
+    <g id="path" transform="translate(43.488 -572.781)">
+      <path id="path_1" data-name="path 1" d="M54.511,675.584h12" transform="translate(-31 -0.303)" fill="none" stroke="#4d5156" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="path_2" data-name="path 2" d="M54.511,675.584h18" transform="translate(-31 6.697)" fill="none" stroke="#4d5156" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="path_3" data-name="path 3" d="M54.511,675.584h18" transform="translate(-31 13.697)" fill="none" stroke="#4d5156" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="path_4" data-name="path 4" d="M588.155,480.547c-1.284,0-1.575-.978-1.575-2.514,0-1.5.29-2.514,1.575-2.514s1.575,1.019,1.575,2.514c0,1.536-.29,2.514-1.575,2.514" transform="translate(-547.85 197.589)" fill="#0071e1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="ico_gnbSch" transform="translate(-325 -70)">
+    <rect id="area" width="40" height="40" transform="translate(325 70)" fill="rgba(255,0,0,0.2)" opacity="0"/>
+    <g id="그룹_240" data-name="그룹 240" transform="translate(-443.828 -801.136)">
+      <path id="패스_1296" data-name="패스 1296" d="M788.046,897.573a8.218,8.218,0,1,1,8.219-8.219,8.228,8.228,0,0,1-8.219,8.219m0-14.954a6.735,6.735,0,1,0,6.736,6.735,6.742,6.742,0,0,0-6.736-6.735" fill="#4d5156"/>
+      <path id="패스_1297" data-name="패스 1297" d="M819.7,924.76c-1,.729-1.784.129-2.655-1.069-.847-1.167-1.2-2.128-.2-2.856s1.807-.1,2.655,1.07c.871,1.2,1.2,2.127.2,2.856" transform="translate(-22.133 -23.942)" fill="#0080ff"/>
+    </g>
+  </g>
+</svg>
