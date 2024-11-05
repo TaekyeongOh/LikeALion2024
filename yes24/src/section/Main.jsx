@@ -24,7 +24,7 @@ const Main = () => {
       <div className="mainsec">
         <div className="mainSec1" style={{ width: '502px', height: '488px', overflow: 'hidden' }}>
         <Swiper
-            modules={[Autoplay]} // Pagination 제거
+            modules={[Autoplay]}
             loop={true}
             slidesPerView={1}
             autoplay={{
