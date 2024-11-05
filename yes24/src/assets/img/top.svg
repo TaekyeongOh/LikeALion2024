@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ico_fTop" transform="translate(67 -611)">
+    <rect id="area" width="20" height="20" transform="translate(-67 611)" fill="#fff" opacity="0"/>
+    <g id="icon" transform="translate(-2)">
+      <path id="icon_arrow" d="M6.677,14,0,7,6.677,0" transform="translate(-48 612) rotate(90)" fill="none" stroke="#4d5156" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_177" data-name="패스 177" d="M-57,612.622v17.17" transform="translate(2 0.209)" fill="none" stroke="#4d5156" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
